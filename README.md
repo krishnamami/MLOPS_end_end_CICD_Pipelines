@@ -44,3 +44,27 @@ The model solves key problems in the hotel industry:
 - Fully Automated Deployment through Jenkins pipeline
 - Experiment Tracking with MLflow for better model governance
 - Flask App for serving predictions
+  
+📁 Project Structure
+├── artifacts(model,Raw data,Processed data)/
+
+├── config/# Config for Models,paths on Google Cloud,Model Params 
+
+├── custom_jebkins(setup Jenkins)/
+
+├── training/
+
+├── pipeline(training_pipeline)/
+
+├── src/
+
+├── Dockerfile(dockerize the  project)
+
+├── Jenkinsfile # CI/CD Pipeline Definition
+
+├── application.py/  # Set up App
+
+└── setup.py #Setup project
+
+## Acknowledgments
+This project was created as part of my journey to deepen hands-on experience with MLOps, CI/CD practices, and cloud deployment strategies.
