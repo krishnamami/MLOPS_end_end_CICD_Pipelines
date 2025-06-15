@@ -18,3 +18,4 @@ The model solves key problems in the hotel industry:
 - **Fraud Detection**: Identify suspicious booking patterns
 
 
+![🚀 End-to-End MLOps Pipeline using Jenkins on GCP - visual selection](https://github.com/user-attachments/assets/455bf216-e7d5-4c81-8f62-6273936cabb8)
