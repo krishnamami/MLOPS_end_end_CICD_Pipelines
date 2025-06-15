@@ -1,6 +1,4 @@
-# MLOPS End to End Implementation with CI/CD Pipelines using Jenkins on Google Cloud Platform (GCP)
-
-🚀 End-to-End MLOps Pipeline using Jenkins on GCP
+# 🚀  End to End MLOPS pipleines Implementation with CI/CD  using Jenkins on Google Cloud Platform (GCP)
 
 This project demonstrates a complete MLOps workflow—from raw data ingestion to model deployment—leveraging CI/CD pipelines powered by Jenkins and hosted on Google Cloud Platform (GCP). It showcases best practices in building scalable, automated, and reproducible ML systems.
 
