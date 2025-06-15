@@ -1,4 +1,4 @@
-# MLOPS End to End Implementation with CI/CD Pipelines on Jenkins on Google Cloud Platform (GCP)
+# MLOPS End to End Implementation with CI/CD Pipelines using Jenkins on Google Cloud Platform (GCP)
 
 🚀 End-to-End MLOps Pipeline using Jenkins on GCP
 
