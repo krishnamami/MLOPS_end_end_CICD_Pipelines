@@ -50,21 +50,21 @@ The model solves key problems in the hotel industry:
 
 ├── config/# Config for Models,paths on Google Cloud,Model Params 
 
-├── custom_jebkins(setup Jenkins)/
+├── custom_jebkins #setup Jenkins on Docker
 
 ├── training/
 
-├── pipeline(training_pipeline)/
+├── pipeline #training_pipeline)
 
 ├── src/
 
-├── Dockerfile(dockerize the  project)
+├── Dockerfile #dockerize the  project
 
 ├── Jenkinsfile # CI/CD Pipeline Definition
 
 ├── application.py/  # Set up App
 
-└── setup.py #Setup project
+└── setup.py #Setup project dependencies
 
 ## Acknowledgments
 This project was created as part of my journey to deepen hands-on experience with MLOps, CI/CD practices, and cloud deployment strategies.
