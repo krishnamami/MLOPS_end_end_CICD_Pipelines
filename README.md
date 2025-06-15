@@ -21,24 +21,26 @@ The model solves key problems in the hotel industry:
 ![🚀 End-to-End MLOps Pipeline using Jenkins on GCP - visual selection](https://github.com/user-attachments/assets/455bf216-e7d5-4c81-8f62-6273936cabb8)
 
 
+## 🔧 Tools and Technologies Used
 
+|Category| Tools/Tech Used |
+|--------|-------------|
+| Data Storage	| Google Cloud Storage (GCS) |
+| Model Training | Python, LightGBM, Scikit-learn |
+| Tracking | MLflow |
+| CI/CD | 	Jenkins, Git, Docker |
+| Deployment | Google Cloud Run, Container Registry|
+| App Layer | Flask (for prediction API) |
 
 🔧 CI/CD Pipeline (Jenkins)
-Jenkins installed inside Docker container
-
-Pulls project repo from GitHub
-
-Sets up virtual environment & dependencies
-
-Builds and pushes Docker image to Google Container Registry (GCR)
-
-Deploys container to Google Cloud Run using service account credentials
+- Jenkins installed inside Docker container
+- Pulls project repo from GitHub
+- Sets up virtual environment & dependencies
+- Builds and pushes Docker image to Google Container Registry (GCR)
+- Deploys container to Google Cloud Run using service account credentials
 
 ✅ Key Features
-Modular Codebase for reusability and testing
-
-Fully Automated Deployment through Jenkins pipeline
-
-Experiment Tracking with MLflow for better model governance
-
-Flask App for serving predictions
+- Modular Codebase for reusability and testing
+- Fully Automated Deployment through Jenkins pipeline
+- Experiment Tracking with MLflow for better model governance
+- Flask App for serving predictions
