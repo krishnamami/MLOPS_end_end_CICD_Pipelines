@@ -68,3 +68,10 @@ The model solves key problems in the hotel industry:
 
 ## Acknowledgments
 This project was created as part of my journey to deepen hands-on experience with MLOps, CI/CD practices, and cloud deployment strategies.
+
+## Related Projects
+
+[Distributed ML SageMaker Pipeline](https://github.com/krishnamami/Distributed_ML_Sagemaker_Pipelines)
+
+Krishna Goud
+Head of Data Engineering & MLOps | Rocket LA [LinkedIn](https://www.linkedin.com/in/krishnagoud)
