@@ -44,15 +44,15 @@ The model solves key problems in the hotel industry:
 - Flask App for serving predictions
   
 📁 Project Structure
-├── artifacts(model,Raw data,Processed data)/
+├── artifacts(model,Raw data,Processed data)
 
-├── config/# Config for Models,paths on Google Cloud,Model Params 
+├── config # Config for Models,paths on Google Cloud,Model Params 
 
-├── custom_jebkins #setup Jenkins on Docker
+├── custom_jenkins #setup Jenkins on Docker
 
 ├── training/
 
-├── pipeline #training_pipeline)
+├── pipeline #training_pipeline
 
 ├── src/
 
