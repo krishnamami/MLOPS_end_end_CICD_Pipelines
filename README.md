@@ -44,25 +44,37 @@ The model solves key problems in the hotel industry:
 - Flask App for serving predictions
   
 📁 Project Structure
-├── artifacts(model,Raw data,Processed data)
-
-├── config # Config for Models,paths on Google Cloud,Model Params 
-
-├── custom_jenkins #setup Jenkins on Docker
-
-├── training/
-
-├── pipeline #training_pipeline
-
-├── src/
-
-├── Dockerfile #dockerize the  project
-
-├── Jenkinsfile # CI/CD Pipeline Definition
-
-├── application.py/  # Set up App
-
-└── setup.py #Setup project dependencies
+├── artifacts/                    # Stores all generated artifacts (raw data, processed data, models, etc.)
+│
+├── config/                       # Centralized config (e.g., model hyperparameters, GCP paths, thresholds)
+│   └── config.yaml               # (Optional) Use YAML for easier editing outside code
+│
+├── custom_jenkins/              # Jenkins Docker setup for CI/CD pipeline
+│   └── Dockerfile      # Add Jenkins to Docker
+│
+├── static/                    # CSS script to enhance UI
+│   └── style.css
+│ 
+│
+├── pipeline/                    # High-level orchestration scripts (e.g., triggering training)
+│   └── training_pipeline.py     # Calls each pipeline step: ingestion → validation → training
+│
+├── src/                         # Core reusable modules (e.g., data_ingestion/, transformation/, utils/)
+│   ├── data_ingestion.py
+│   ├── data_preprocessing.py
+│   ├── custome_exception.py
+│   ├── model_training.py
+│   └── logger.py
+│
+├── Dockerfile                   # Defines container image for training/deployment
+│
+├── Jenkinsfile                  # CI/CD pipeline steps (test → build → deploy)
+│
+├── application.py               # FastAPI / Flask app for prediction or monitoring endpoint
+│
+├── requirements.txt             # Python dependencies (pinned versions recommended)
+│
+└── setup.py   
 
 ## Acknowledgments
 This project was created as part of my journey to deepen hands-on experience with MLOps, CI/CD practices, and cloud deployment strategies.
